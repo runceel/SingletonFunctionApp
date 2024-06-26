@@ -1,11 +1,6 @@
 ﻿using Microsoft.Azure.Functions.Worker;
 using Microsoft.DurableTask;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SingletonFunctionApp.SingletonSample;
 public class SingletonProcessOrchestrator
