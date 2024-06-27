@@ -9,8 +9,7 @@ using SingletonFunctionApp.SingletonSample;
 
 namespace SingletonFunctionApp;
 
-public class QueueTriggerFunction(ILogger<QueueTriggerFunction> logger,
-    TimeProvider timeProvider)
+public class QueueTriggerFunction(TimeProvider timeProvider)
 {
     [Function(nameof(QueueTriggerFunction))]
     [TableOutput(Consts.TableName)]
